@@ -1,0 +1,52 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -50px 0 ;
+
+    .Logo-Sec{
+
+    }
+
+    .Nav-Sec{
+        padding: 25px;
+        margin-top: 3rem;
+
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: 'Roboto', sans-serif;
+
+            li{
+                padding: 0 10px;
+                font-size: 25px;
+                font-weight: 600;
+                color: #e4e4e4;
+                cursor: pointer;
+
+                &:hover{
+                    color: #f5f5f5;
+                }
+
+                button{
+                    background: none;
+                    border: 2px solid #B914D3;
+                    border-radius: 50px;
+                    color: #fff;
+                    font-size: 25px;
+                    font-weight: 600;
+                    cursor: pointer;
+
+                    &:hover{
+                        color: #f5f5f5;
+                        background-color: #B914D3;
+                    }
+                }
+            }
+        }
+
+
+    }
+}

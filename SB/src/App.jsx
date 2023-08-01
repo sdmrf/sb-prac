@@ -1,7 +1,7 @@
 import './App.scss'
 const App = () => {
   return (
-    <div>App</div>
+    <div className="App">Hello</div>
   )
 }
 
